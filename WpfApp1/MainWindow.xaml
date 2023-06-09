@@ -11,7 +11,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <!--<DocumentViewer>
+        <DocumentViewer x:Name="documentViewer" >
             <FixedDocument>
                 <PageContent>
                     <FixedPage>
@@ -19,10 +19,10 @@
                     </FixedPage>
                 </PageContent>
             </FixedDocument>
-        </DocumentViewer>-->
+        </DocumentViewer>
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
             <Button Content="Сохранить" Click="Button_Click"/>
-            <Button Content="Загрузить"/>
+            <Button Content="Загрузить" Click="Button_Click_1"/>
         </StackPanel>
     </Grid>
 </Window>

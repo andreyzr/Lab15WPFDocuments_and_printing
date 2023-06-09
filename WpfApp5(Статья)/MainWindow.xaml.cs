@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,15 +9,13 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.IO;
-using System.Windows.Xps.Packaging;
-using System.Windows.Xps;
 
-namespace WpfApp1
+namespace WpfApp5_Статья_
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -30,17 +29,23 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            XpsDocument doc = new XpsDocument("1.xps", FileAccess.Write);
-            XpsDocumentWriter writer=XpsDocument.CreateXpsDocumentWriter(doc);
-            writer.Write(documentViewer.Document as FixedDocument);
-            doc.Close();
+            docViewer.ClearValue(FlowDocumentScrollViewer.DocumentProperty);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            XpsDocument doc = new XpsDocument("Data/2.xps", FileAccess.Read);
-            documentViewer.Document=doc.GetFixedDocumentSequence();
-            doc.Close();
+            using (FileStream fs = File.Open("1.xaml", FileMode.Create))
+            {
+                XamlWriter.Save(docViewer.Document, fs);
+            }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            using (FileStream fs = File.Open("1.xaml", FileMode.Open))
+            {
+               docViewer.Document= XamlReader.Load(fs)as FlowDocument;
+            }
         }
     }
 }
