@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HW"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="800">
+        Title="MainWindow" Height="10000" Width="900">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -13,28 +13,289 @@
         </Grid.RowDefinitions>
         <FlowDocumentScrollViewer x:Name="docViewer">
             <FlowDocument>
-                <Paragraph TextAlignment="Center" FontSize="25"  >
+                <Paragraph TextAlignment="Center" FontSize="25">
                     <Floater Width="1000"  HorizontalAlignment="Center">
                         <BlockUIContainer>
-                            <Image Source="Data/1.png" Width="750" Height="300"/>
+                            <Image Source="Data/1.png" Width="500" Height="300"/>
                         </BlockUIContainer>
                     </Floater>
-                    <Span>
-                        <Bold>Обзор Google Pixel 7a: мастер вычислительной фотографии</Bold>
-                    </Span>
                 </Paragraph>
-                <Paragraph TextAlignment="Center">
-                    <Hyperlink NavigateUri="https://wylsa.com/obzor-google-pixel-7a-master-vychislitelnoj-fotografii/">Google в очередной раз доказала, что для классных фото не нужен флагман.</Hyperlink>
+                <Paragraph >
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph TextAlignment="Left"  FontSize="26">
+                            <Span>
+                                <Bold>Обзор Google Pixel 7a: мастер вычислительной фотографии</Bold>
+                            </Span>
+                        </Paragraph>
+                        <Paragraph FontSize="16">
+                            <Hyperlink NavigateUri="https://wylsa.com/obzor-google-pixel-7a-master-vychislitelnoj-fotografii/">Google в очередной раз доказала, что для классных фото не нужен флагман.</Hyperlink>
+                        </Paragraph>
+                    </Figure>
+                </Paragraph>
+                <Paragraph >
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph TextAlignment="Left">
+                            Вот и новый Google Pixel 7a у меня в руках. 
+                            Время проходит быстрее, чем этого ожидаешь: у меня в памяти ещё прошлое лето, когда я ходил с Pixel 6a, после которого остались неоднозначные впечатления.
+                            Вроде как он по всем статьям должен был обогнать предшествующий Pixel 5a, но мне как раз старая модель понравилась больше.
+                        </Paragraph>
+                    </Figure>
+                </Paragraph>
+                <Paragraph >
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph>
+                            Что получилось в этом году, расскажу далее по тексту. 
+                            На первый взгляд новый Pixel 7a стал заметно лучше старой модели по характеристикам. 
+                            Он получил новый чипсет от старших Pixel, новые камеры, беспроводную зарядку и поддержку 90 Гц. 
+                            Правда, при этом он подорожал, но всё равно соотношение цены и возможностей остаётся очень привлекательным.
+                        </Paragraph>
+                    </Figure>
+                </Paragraph>
+                <Paragraph >
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph TextAlignment="Left"  FontSize="26" >
+                            <Span>
+                                <Bold>Внешний вид</Bold>
+                            </Span>
+                        </Paragraph>
+                        <Paragraph>
+                            Младшие модели обычно со временем получают черты старших, вот и Pixel 7a не стал исключением. 
+                            Он получил дизайн блока камер в стиле Pixel 7, поэтому его легко спутать со старшим. 
+                            Если у Pixel 7 блок с камерами получился выпуклым, то у Pixel 7a он не такой объёмный и смотрится более естественно.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="1000"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/2.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                                <Paragraph TextAlignment="Center"  Foreground="Gray">
+                                    Слева направо: Pixel 6a, 7a, 7
+                                </Paragraph>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            В такой же минималистичной манере был выполнен и Pixel 6a, в этом плане младшие модели смотрятся как-то продуманнее, что ли. 
+                            Хотя если внимательно изучать новинку, то можно заметить, что блок с камерами выполнен из двух половинок, а у Pixel 7 это единая деталь, переходящая в рамку корпуса — смотрится подороже.
+                            К слову, по размерам Pixel 7a похож на Pixel 6a, отличия минимальные.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="1000"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/3.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                                <Paragraph TextAlignment="Center"  Foreground="Gray">
+                                    Иллюстрация: Светлана Чувилёва / Wylsacom Media
+                                </Paragraph>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            По бокам проходит алюминиевая рамка, а задняя поверхность из глянцевого пластика. 
+                            Понять, что это не стекло, а пластик, вообще сложно, ощущения одинаковые. 
+                            Но сделать такой вывод проще всего, если посмотреть разборку смартфона на YouTube.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/4.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            Не могу сказать, что прошлогодний Pixel 6a воспринимается хуже на фоне новинки. 
+                            По сути, все внешние изменения сводятся к переработанному дизайну блока камер. 
+                            Мне контрастный стиль Pixel 6a даже больше нравится, но это всё уже личная вкусовщина и мелочи.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/5.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                                <Paragraph TextAlignment="Center"  Foreground="Gray">
+                                    Слева направо: Pixel 4a, 5a, 6a, 7a, 7
+                                </Paragraph>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            Для Pixel 7a придумали четыре расцветки. 
+                            Помимо чёрной и белой классики есть ещё голубой и коралловый. 
+                            Почему вдруг коралловый — да кто его знает. 
+                            Цвет, как по мне, странный, потому что он какой-то невнятный. Вот был бы жёлтый, красный или оранжевый — я бы только порадовался. 
+                            Но если скучаете по Pixel 4 и его цвету Oh So Orange, то будете довольны. 
+                            Тот тоже был каким-то недооранжевым, по моему мнению, но это уже всё вкусовщина.
+                        </Paragraph>
+                    </Figure>
                 </Paragraph>
                 <Paragraph>
-                    <Span Background="RosyBrown">
-                        <Bold>Представить русскую кухню без пельменей сегодня невозможно.</Bold>
-                        <Run Foreground="Red">При этом родиной пельменей нередко называют Китай — якобы именно оттуда блюдо завезли в Россию.</Run> Можно услышать и другую версию: об удмуртском происхождении пельменей. 
-                        Пермский историк Павел Корчагин уверен, что оба варианта не соответствуют истине. Изучив разные документы, он пришел к выводу, что пельмени появились на территории современного Коми округа.
-                 Когда именно придумали пельмени? Какие есть доказательства, что их родина — именно Прикамье, а не другие регионы страны?
-                        Как ели пельмени несколько столетий назад? На эти вопросы подробно отвечает Павел Корчагин.
-                    </Span>
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph TextAlignment="Left"  FontSize="26" >
+                            <Span>
+                                <Bold>Удобство</Bold>
+                            </Span>
+                        </Paragraph>
+                        <Paragraph>
+                            Когда беру Pixel 4a, то удивляюсь, как быстро мы забыли про маленькие смартфоны. 
+                            Версия 4a была классной: миниатюрный смартфон с отличной камерой. 
+                            Увы, но потом мода на крупные форматы стала набирать обороты, остаётся только предаваться ностальгическим воспоминаниям. 
+                            Но если будете переходить с какого-нибудь старого Pixel с небольшим экраном, то новые эмоции гарантированы.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/6.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            Корпус угловатый и не самый тонкий, если сравнивать с одноклассниками. 
+                            Причём по-прежнему пальцем можно нащупать переход между пластиковой панелью и закруглёнными боковинами. 
+                            В Pixel 7 он менее ощутим, да и в старом Pixel 6a тоже было сделано как-то аккуратнее.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/7.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            На глянцевой поверхности конечно же собираются отпечатки, без этого никуда. 
+                            Корпус из ладони не выскальзывает, мне всё понравилось. Пока ходил с Pixel 7a, даже случайный дроп-тест произошёл. 
+                            Катались по Неве на катере, телефон лежал на сиденье и каким-то чудом провалился между спинкой и сидушкой при разгоне. 
+                            Было опасение, что он вообще за борт упал, но благодаря функции поиска утерянного устройства я понял, что телефон всё-таки где-то на борту. 
+                            Как оказалось, он упал в моторный отсек, и, по словам капитана, мне повезло. Смартфон лежал на тряпице, а мог бы вообще провалиться в недра катера. 
+                            Отделался маленькой коцкой блока камеры. В общем, держите вещи при себе.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/8.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            Добавлю ещё, что Pixel 7a не боится водных процедур, у него защита IP67. 
+                            Смартфон выдержит погружение на метровую глубину в течение получаса.
+                        </Paragraph>
+                        <Paragraph>
+                            <Floater Width="550"  HorizontalAlignment="Center">
+                                <BlockUIContainer>
+                                    <Image Source="Data/9.jpg" Width="500" Height="300"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            Подэкранный сканер отпечатков работает отлично, задержек нет, проблемы прошлого поколения исправлены. 
+                            Плюс можно использовать и разблокировку по лицу через фронтальную камеру — но тогда придётся пожертвовать надёжностью.
+                        </Paragraph>
+                    </Figure>
                 </Paragraph>
+                <Paragraph>
+                    <Figure Width="550"  HorizontalAnchor="ColumnCenter" >
+                        <Paragraph TextAlignment="Left"  FontSize="26" >
+                            <Span>
+                                <Bold>Начинка</Bold>
+                            </Span>
+                        </Paragraph>
+                        <Table>
+                            <Table.Columns>
+                                <TableColumn />
+                                <TableColumn/>
+                                <TableColumn />
+                            </Table.Columns>
+                            <TableRowGroup>
+                                <TableRow>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Характеристики</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel6a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel7a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>
+                                        <Paragraph>
+                                            Процессор
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            8-ядерный Google Tensor, сопроцессор Titan M2
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel7a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>
+                                        <Paragraph>
+                                            Память
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel6a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel7a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell>
+                                        <Paragraph>
+                                            Батарея
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel6a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Paragraph>
+                                            <Span>
+                                                <Bold>Pixel7a</Bold>
+                                            </Span>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                            </TableRowGroup>
+                        </Table>
+                    </Figure>
+                </Paragraph>
+
+
+
+
+
                 <Paragraph>
                     Рецепт теста для пельменей
                 </Paragraph>

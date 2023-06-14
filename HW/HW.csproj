@@ -97,5 +97,23 @@
   <ItemGroup>
     <Resource Include="Data\1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\10.jpg" />
+    <Resource Include="Data\11.jpg" />
+    <Resource Include="Data\12.jpg" />
+    <Resource Include="Data\13.jpg" />
+    <Resource Include="Data\14.jpg" />
+    <Resource Include="Data\15.jpg" />
+    <Resource Include="Data\3.jpg" />
+    <Resource Include="Data\4.jpg" />
+    <Resource Include="Data\5.jpg" />
+    <Resource Include="Data\6.jpg" />
+    <Resource Include="Data\7.jpg" />
+    <Resource Include="Data\8.jpg" />
+    <Resource Include="Data\9.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
