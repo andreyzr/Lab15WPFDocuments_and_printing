@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:HW"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="CustomFont">
+            <Setter Property="TextElement.FontFamily"
+                    Value="/Data/press-start-k">
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>
